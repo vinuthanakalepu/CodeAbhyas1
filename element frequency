@@ -1,0 +1,7 @@
+# to print the array frequency of a given string usong dict
+s=[1,2,3,1,2,3,2,2,2]
+d5={}
+for i in s:
+    d5[i]=s.count(i)
+print(d5)
+output:{1: 2, 2: 5, 3: 2}
